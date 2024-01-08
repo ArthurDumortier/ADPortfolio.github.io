@@ -127,7 +127,18 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                    <h3>In Progress...</h3>
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioJobboard">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/JobboardMaq.png" alt="..." />
+                    </div>
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioMonopolyBoard">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/MonopolyBoardMaq.png" alt="..." />
+                    </div>
                 </div>
             </div>
         </section>
@@ -637,6 +648,99 @@
                                             Pour l'instant nous avons terminer la partie administratif en web avec PHP et donc maintenant nous allons passer sur l'application Mobile avec MAUI.
                                         </p>
                                         
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Fermer la fenêtre
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal JobboardMaq -->
+        <div class="portfolio-modal modal fade" id="portfolioJobboard" tabindex="-1" aria-labelledby="portfolioJobboard" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">JobBoard Dev</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" style="width: 10vh; height: auto;" src="assets/img/portfolio/jobboardLogo.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        <h3 class="text-center mb-4">Le projet consistait à :</h3>
+                                        <p>Crée un site web ayant pour but de simuler un site de recherche d'emploi. Pour plus d'informations voir le lien github du projet ci-dessous.</p>
+                                        <a href="https://github.com/ArthurDumortier/JobBoard" target="_blank">Projet</a>
+                                    </p>
+                                    <p class="mb-4">
+                                        <h3 class="text-center mb-4">Technologies utilisées :</h3>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Visual studio code</li>
+                                            <li class="list-group-item">Php 8.2</li>
+                                            <li class="list-group-item">Laravel 10</li>
+                                            <li class="list-group-item">Github</li>
+                                            <li class="list-group-item">Trello</li>
+                                        </ul>
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Fermer la fenêtre
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MonopolyBoardMaq -->
+        <div class="portfolio-modal modal fade" id="portfolioMonopolyBoard" tabindex="-1" aria-labelledby="portfolioMonopolyBoard" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Monopoly Jeu 2D</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" style="width: 10vh; height: auto;"  src="assets/img/portfolio/MonopolyBoardLogo.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        <h3 class="text-center mb-4">Le projet consistait à :</h3>
+                                       <p>En groupe de 3, nous avions comme demande de crée un jeu 2d sur un periode de 2 semaines. Pour ce faire nous sommes parties sur un jeu monopoly revisité spécial à epitech. 
+                                        Pour plus d'informations voir le lien github du projet ci-dessous.</p>
+                                         <a href="https://github.com/ArthurDumortier/MonopolyBoard" target="_blank">Projet</a>
+                                       </p>
+                                    </p>
+                                    <p class="mb-4">
+                                        <h3 class="text-center mb-4">Technologies utilisées :</h3>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">Visual studio code</li>
+                                            <li class="list-group-item">Java</li>
+                                            <li class="list-group-item">Github</li>
+                                            <li class="list-group-item">Trello</li>
+                                        </ul>                                        
                                     </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
